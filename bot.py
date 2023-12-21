@@ -16,6 +16,10 @@ bot = discord.Bot()
 async def ping(ctx):
   await ctx.respond(f"Ping bota wynosi {bot.latency}")
 
+@bot.command(description="Wysyła ping bota.")
+async def github(ctx):
+  await ctx.respond(f"Ten bot jest w pełni Open Source. Jego kod możesz znaleźć [tutaj](https://github.com/szewczuko/infotechmc-discord)")
+
 @bot.command(guild_ids=gid, name = "status", description="Sprawdza czy serwer jest dostępny")
 async def status(ctx):
   await ctx.defer()
