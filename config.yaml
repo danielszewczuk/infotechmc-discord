@@ -1,3 +1,4 @@
 token: Tutaj ma być token twojego bota na discord.
 do_sprawdzenia: Tutaj ma IP/Domena która ma być sprawdzana.
+serwery: Tutaj ma być ID serwera discord na którym mają działać komendy.
 port: 25565
